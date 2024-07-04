@@ -1,0 +1,21 @@
+# File Name: zathurarc
+# File Path: ${XDG_CONFIG_HOME}/zathura/zathurarc
+# Description: Zathura configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-Licence-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+# Clipboard
+set selection-clipboard clipboard
+
+# Interface
+set statusbar-basename "true"
+set window-title-basename "true"
+
+# Display
+set recolor "false"
+set recolor-reverse-video "true"
+set recolor-keephue "true"
+set render-loading "false"

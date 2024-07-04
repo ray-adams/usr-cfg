@@ -1,0 +1,24 @@
+# File Name: dunstrc
+# Script Path: ${XDG_CONFIG_HOME}/dunst/dunstrc
+# Description: dunst configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-Licence-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+[global]
+    monitor = 1
+    width = 300
+    height = 300
+    origin = top-right
+    offset = 10x50
+    scale = 0
+
+    font = Monospace 15
+    frame_color = "#000000"
+
+    notification_limit = 3
+
+[history]
+    history_length = 20

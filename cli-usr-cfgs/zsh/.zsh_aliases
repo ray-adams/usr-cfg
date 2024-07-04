@@ -1,0 +1,35 @@
+# File Name: .zsh_aliases
+# File Path: ${XDG_CONFIG_HOME}/zsh/.zsh_aliases
+# Description: ZSH alias configuration file.
+
+# Copyright (c) 2024 Ray Adams
+# SPDX-Licence-Identifier: BSD-3-Clause
+
+# Version: 1.0.0
+
+# uuitils
+alias \
+    mkdir="uu-mkdir -vp"\
+    mv="uu-mv -iv"\
+    cp="uu-cp -iv"\
+    cat="uu-cat"\
+    echo="uu-echo"\
+    printf="uu-printf"\
+    ln="uu-ln"\
+    chown="uu-chown"\
+    chmod="uu-chmod"\
+    shred="uu-shred"\
+    rm="uu-rm -v"\
+    ls="ls --color=always"\
+    basename="uu-basename"
+
+# misc
+alias \
+    irssi="irssi --config="$XDG_CONFIG_HOME"/irssi/config --home="$XDG_DATA_HOME"/irssi"\
+    notes="nvim -c 'e ~/notes/index.adoc'"\
+    octave="octave -q"\
+    poweroff="loginctl poweroff"\
+    reboot="loginctl reboot"\
+    tree="tree -C"\
+    vim="nvim"\
+    z="zathura"
