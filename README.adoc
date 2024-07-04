@@ -1,10 +1,12 @@
 == Description
 
+User configuration files for each system.
+
 === Notice
 1. Links to directories within this repository point to https://src.salaciouswind.com[src.salaciouswind.com].
 Therefore, it won't work as intended on mirrors.
 
-2. Links to Third-party licenses can be found in the https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/credits.txt[credits.txt] file.
+2. Third-party licenses are listed in the https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/credits.txt[credits.txt] file.
  
 === Contents
 * https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/cli-usr[cli-usr].
