@@ -19,8 +19,8 @@ nc='\033[0m'
 
 cli() {
     # Create directories if they do not exist
-    mkdir -p "${working_dir}/cli-usr-cfgs/nvim/"
-    mkdir -p "${working_dir}/cli-usr-cfgs/zsh/"
+    mkdir -p "${working_dir}/cli-usr/nvim/"
+    mkdir -p "${working_dir}/cli-usr/zsh/"
 
     # Directories
 
@@ -31,13 +31,13 @@ cli() {
         --exclude="spell" \
         --exclude="templates" \
         "${XDG_CONFIG_HOME}/nvim/" \
-        "${working_dir}/cli-usr-cfgs/nvim/"
+        "${working_dir}/cli-usr/nvim/"
 
     ## zsh
     echo "${green} Syncing zsh configuration files...${nc}"
     rsync -qru --delete \
         "${XDG_CONFIG_HOME}/zsh/" \
-        "${working_dir}/cli-usr-cfgs/zsh/"
+        "${working_dir}/cli-usr/zsh/"
 
     # Files
     
@@ -45,7 +45,7 @@ cli() {
     echo "${green} Syncing the user-dirs.dirs configuration file...${nc}"
     rsync -qu \
         "${XDG_CONFIG_HOME}/user-dirs.dirs" \
-        "${working_dir}/cli-usr-cfgs/"
+        "${working_dir}/cli-usr/"
 }
 
 tohka_s3() {
