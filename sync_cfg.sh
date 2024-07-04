@@ -7,7 +7,7 @@
 # Copyright 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.1.0
 
 # Obtain the path for <git_root>
 working_dir="$(git rev-parse --show-toplevel)"
@@ -27,7 +27,6 @@ cli() {
     ## neovim
     echo "${green} Syncing neovim configuration files...${nc}"
     rsync -qru --delete \
-        --exclude="colors" \
         --exclude="spell" \
         --exclude="templates" \
         "${XDG_CONFIG_HOME}/nvim/" \
@@ -85,7 +84,6 @@ tohka_s3() {
     ## neovim
     echo "${green} Syncing neovim configuration files...${nc}"
     rsync -qru --delete \
-        --exclude="colors" \
         --exclude="spell" \
         --exclude="templates" \
         "${XDG_CONFIG_HOME}/nvim/" \

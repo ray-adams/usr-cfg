@@ -1,14 +1,11 @@
-" File Name: vviki.lua
-" File Path: ${XDG_CONFIG_HOME}/nvim/plugin/vviki.lua
+" File Name: vviki.vim
+" File Path: ${XDG_CONFIG_HOME}/nvim/plugin/vviki.vim
 " Description: neovim adoc wiki plugin.
 
-" Copyright (c) 2024 Ray Adams
-" SPDX-License-Identifier: BSD-3-Clause
+" Copyright (c) 2024 Dave Gauer, Ray Adams
+" SPDX-License-Identifier: MIT AND BSD-3-Clause
 
-" Version: 1.0.0
-
-" Copyright (c) 2020 Dave Gauer
-" MIT License
+" Version: 1.0.1
 
 if exists('g:loaded_vviki')
 	finish
