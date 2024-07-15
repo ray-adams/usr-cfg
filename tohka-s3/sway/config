@@ -5,11 +5,11 @@
 # Copyright (c) 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.1.0
 
 # Monitors
 
-set $m1 DP-3
+set $m1 DP-2
 set $m2 DP-1
 
 ## Monitor 1

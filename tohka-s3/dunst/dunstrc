@@ -5,10 +5,10 @@
 # Copyright (c) 2024 Ray Adams
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.1.0
 
 [global]
-    monitor = 1
+    monitor = 0
     width = 300
     height = 300
     origin = top-right
@@ -19,6 +19,4 @@
     frame_color = "#000000"
 
     notification_limit = 3
-
-[history]
     history_length = 20
