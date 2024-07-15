@@ -9,5 +9,9 @@ Therefore, it won't work as intended on mirrors.
 2. Third-party licenses are listed in the https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/credits.txt[credits.txt] file.
  
 === Contents
-* https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/cli-usr[cli-usr].
+
+==== Template Users
+* https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/template_users/cli-usr[cli-usr].
+
+==== Personal Users
 * https://src.salaciouswind.com/ray/usr-cfg/src/branch/main/tohka-s3[tohka-s3].
